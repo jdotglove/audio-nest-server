@@ -30,7 +30,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>src.main.java.com.nest.NestHttpServer</mainClass>
+              <mainClass>nest.NestHttpServer</mainClass>
             </manifest>
           </archive>
         </configuration>

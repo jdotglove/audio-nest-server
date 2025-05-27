@@ -13,7 +13,7 @@ public class NestHttpServer
     {
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
 
-        server.createContext("/api/", (req) -> Router.mainApiHandler(req));
+        server.createContext("/", (req) -> Router.mainApiHandler(req));
         server.createContext("/spotify/", (req) -> Router.spotifyApiHandler(req));
 
         server.setExecutor(null); // Use the default executor

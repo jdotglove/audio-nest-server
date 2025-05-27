@@ -3,7 +3,6 @@ package src.main.java.com.nest;
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpExchange;
-import src.main.java.com.nest.lib.Router;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -16,9 +15,9 @@ public class NestHttpServer
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
 
         
-        server.createContext("/", (req) -> Router.mainApiHandler(req));
-        server.createContext("/health", new HealthCheckHandler());
-        server.createContext("/spotify/", (req) -> Router.spotifyApiHandler(req));
+        server.createContext("/", new HealthCheckHandler());
+        // server.createContext("/health", );
+        // server.createContext("/spotify/", (req) -> Router.spotifyApiHandler(req));
 
         server.setExecutor(null); // Use the default executor
         server.start();

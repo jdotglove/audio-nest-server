@@ -1,4 +1,4 @@
-package src.main.java.nest.lib.helpers;
+package src.main.java.com.nest.lib.helpers;
 
 public enum HttpMethod {
     GET,

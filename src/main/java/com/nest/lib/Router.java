@@ -1,4 +1,4 @@
-package src.main.java.nest.lib;
+package src.main.java.com.nest.lib;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,9 +10,9 @@ import java.util.regex.Pattern;
 
 import com.sun.net.httpserver.HttpExchange;
 
-import src.main.java.nest.lib.helpers.HttpStatusCode;
-import src.main.java.nest.lib.http.HttpHandler;
-import src.main.java.nest.lib.helpers.HttpMethod;
+import src.main.java.com.nest.lib.helpers.HttpMethod;
+import src.main.java.com.nest.lib.helpers.HttpStatusCode;
+import src.main.java.com.nest.lib.http.HttpHandler;
 
 
 public class Router {

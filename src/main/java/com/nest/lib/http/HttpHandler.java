@@ -1,4 +1,4 @@
-package src.main.java.nest.lib.http;
+package src.main.java.com.nest.lib.http;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,4 +1,4 @@
-package src.main.java.nest.lib.http;
+package src.main.java.com.nest.lib.http;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -6,9 +6,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.*;
 
-import src.main.java.nest.lib.helpers.HttpMethod;
-import src.main.java.nest.lib.pojos.HttpRequest;
-import src.main.java.nest.lib.pojos.HttpRequest.Builder;
+import src.main.java.com.nest.lib.helpers.HttpMethod;
+import src.main.java.com.nest.lib.pojos.HttpRequest;
+import src.main.java.com.nest.lib.pojos.HttpRequest.Builder;
 
 public class HttpDecoder {
     public static Optional<HttpRequest> decode(final InputStream inputStream) {

@@ -1,4 +1,4 @@
-package src.main.java.nest.lib.pojos;
+package src.main.java.com.nest.lib.pojos;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import src.main.java.nest.lib.helpers.HttpMethod;
+import src.main.java.com.nest.lib.helpers.HttpMethod;
 
 public class HttpRequest {
     private final HttpMethod httpMethod;

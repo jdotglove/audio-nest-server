@@ -1,8 +1,8 @@
-package src.main.java.nest;
+package src.main.java.com.nest;
 // Java Program to Set up a Basic HTTP Server
 import com.sun.net.httpserver.HttpServer;
 
-import src.main.java.nest.lib.Router;
+import src.main.java.com.nest.lib.Router;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -18,6 +18,6 @@ public class NestHttpServer
 
         server.setExecutor(null); // Use the default executor
         server.start();
-        System.out.println("Server is running on port 8000");
+        System.out.println("Server is running on port 8080");
     }
 }

@@ -1,4 +1,4 @@
-package src.main.java.nest.lib.runners;
+package src.main.java.com.nest.lib.runners;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,10 +9,10 @@ import java.util.Map;
 
 import com.sun.net.httpserver.HttpExchange;
 
-import src.main.java.nest.lib.helpers.HttpMethod;
-import src.main.java.nest.lib.http.HttpDecoder;
-import src.main.java.nest.lib.http.HttpHandler;
-import src.main.java.nest.lib.pojos.HttpRequest;
+import src.main.java.com.nest.lib.helpers.HttpMethod;
+import src.main.java.com.nest.lib.http.HttpDecoder;
+import src.main.java.com.nest.lib.http.HttpHandler;
+import src.main.java.com.nest.lib.pojos.HttpRequest;
 
 public class TrackRunner {
     public static void getSelectedTracks(HttpRequest request) {

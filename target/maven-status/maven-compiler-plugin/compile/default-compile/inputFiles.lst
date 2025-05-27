@@ -1,13 +1,1 @@
 /Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/NestHttpServer.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/helpers/HttpStatusCode.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/http/HttpHandler.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/helpers/HttpMethod.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/pojos/HttpRequest.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/runners/AlbumRunner.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/runners/RecommendationRunner.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/runners/ArtistRunner.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/runners/TrackRunner.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/runners/PlaylistRunner.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/Router.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/http/HttpDecoder.java
-/Users/jarodglover/Desktop/main-server-java/src/main/java/com/nest/lib/runners/UserRunner.java

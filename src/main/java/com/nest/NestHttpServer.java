@@ -13,7 +13,7 @@ public class NestHttpServer
     public static void main(String[] args) throws IOException 
     {
         // Create an HttpServer instance
-        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
+        HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
 
         // Create a context for a specific path and set the handler
         server.createContext("/", new MyHandler());
@@ -22,7 +22,7 @@ public class NestHttpServer
         server.setExecutor(null); // Use the default executor
         server.start();
 
-        System.out.println("Server is running on port 8000");
+        System.out.println("Server is running on port 8080");
     }
 
     // define a custom HttpHandler

@@ -1,2 +1,15 @@
+nest/lib/runners/ArtistRunner.class
+nest/lib/runners/PlaylistRunner.class
+nest/lib/helpers/HttpStatusCode.class
+nest/lib/runners/UserRunner.class
+nest/lib/runners/TrackRunner.class
+nest/lib/pojos/HttpRequest$Builder.class
+nest/lib/pojos/HttpRequest.class
 nest/NestHttpServer$MyHandler.class
 nest/NestHttpServer.class
+nest/lib/runners/AlbumRunner.class
+nest/lib/http/HttpHandler.class
+nest/lib/helpers/HttpMethod.class
+nest/lib/runners/RecommendationRunner.class
+nest/lib/Router.class
+nest/lib/http/HttpDecoder.class
